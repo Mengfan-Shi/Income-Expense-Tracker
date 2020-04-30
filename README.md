@@ -1,22 +1,18 @@
-# Expense Tacker App
+# Expense/Income Tacker 
 
 
 ### Features
-- This app was build with the intention of providing a clean and simple responsive web app for entering and managing expenses. 
-- The app was build while keeping material design guidlines in mind. 
-- As a user, You can create your expenses/incomes by entering the category, description, amount, created date.
-- As a user, You can edit/delete your expenses/incomes.
-- As a user, You can login/register your own account by entering the email address, name, username, password.
-- As a user, You can see your expenses/incomes on piechart and barchart directly.
-- As a user, You can review your profile summary and see how many expense/incomes you've made.
-- As a user, You can store all your data locally by using mongodb.
-- As a user, You can edit/delete your expenses/incomes on backend by using Postman.
-- As a user, You can make changes on currencies and see latest exchange rate by using fully-funtional currency converter.
-- As a user, You can download your logged expenses to an excel sheet.
-- As a user, You can download your logged income to an excel sheet.
+1. The server folder contains an Restful API using mongoDB as a backend.
+2. The webapp folder contains an angualr js project as a Front-end.
+3. Using JWT and brycpt to authenticate user and hash the password.
+4. Using mat-dialog in angular material to add/edit item, using item index ad injector data: if index != null or undefined, edit; else add. The list of items is able to export.
+5. The user data is protected by route authguard.
+6. Using ChartJs to create viewable barcharts and piecharts.
+7. Convert the current value to multiple countries' currency.
+8. Display user information in profile, using progress bar to compare logged expense/income values, display customized current balance.
 
 ### Technologies used
-    JavaScript, mongoDB, html, Angular, React Programming, SCSS, bootstrap
+    JavaScript, mongoDB, typescript, angular material, SCSS, bootstrap
 
 ### Requirements
     No  basic requirements to run this project. However, you may need Git to launch this js file.
